@@ -1,0 +1,33 @@
+# استثناء مجلد AppData بالكامل
+AppData/
+
+# استثناء الملفات المؤقتة وملفات النظام
+*.log
+*.tmp
+.DS_Store
+
+# استثناء ملفات Chrome وملفات الـ Cache
+Chrome/User Data/
+Cache/
+*.dat
+
+# استثناء مجلدات النظام الأخرى
+3D Objects/
+.cargo/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.matplotlib/
+.rustup/
+# تجاهل ملفات النظام
+ntuser.dat*
+ntuser.ini
+
+# تجاهل الملفات المؤقتة وملفات الـ Python
+*.pyc
+__pycache__/
+
+# تجاهل ملفات Python غير الضرورية
+*.py~
+untitled.py
+untitled1.py
